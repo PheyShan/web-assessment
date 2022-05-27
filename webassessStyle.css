@@ -67,7 +67,7 @@ header {
 
 .section1 img {
     padding: 32px 24px;  
-    flex-basis: 60%;         
+    width: 60%;         /* revised */ /* revised */ /* revised */
 }
 
 .section1-content {
@@ -116,6 +116,12 @@ header {
     width: 60%;
 }
 
+/* newly added */ /* newly added */ /* newly added */
+.section2-content img{
+    width: 100%;
+} 
+/* newly added */ /* newly added */ /* newly added */
+
 .section2-info {
     display: flex;
     flex-direction: column;
@@ -160,13 +166,20 @@ header {
 
 .section3-content h4 {
     padding-top: 16px;
-    padding-left: 16px;
+    padding-left: 16px;   
 }
 
 .section3-content div {
     background-color: #ffffff;
     margin: 32px auto;
+    width: 30%;   
 }
+
+/* newly added */ /* newly added */ /* newly added */
+.section3-content img {    
+    width: 100%;    
+}
+/* newly added */ /* newly added */ /* newly added */
 
 #course {
     padding-left: 16px;
@@ -227,6 +240,12 @@ header {
     background-color: #b8b8b8;
 }
 
+/* newly added */ /* newly added */ /* newly added */
+.section4-content video {  
+    width: 100%;               
+}
+/* newly added */ /* newly added */ /* newly added */
+
 /* Footer */
 footer {
    border-top: 1px solid #a09e9e;
@@ -264,6 +283,7 @@ footer {
     }
 
     .section1 img {
+        width: 100%;  /* newly added */ /* newly added */ /* newly added */
         padding: 0px; 
         padding-bottom: 16px;   
     }
@@ -280,9 +300,16 @@ footer {
 
     .section2-info-mobile {
         display: flex;
-        flex-direction: column;
+        flex-direction: column;              
+    }
+
+    /* newly added */ /* newly added */ /* newly added */
+    .section2-detail-mobile img {
+        display: flex;
+        width: 100%;
         
     }
+    /* newly added */ /* newly added */ /* newly added */
                
     .section2-detail-mobile {
         padding-top: 32px;
@@ -322,27 +349,22 @@ footer {
 
     .section3-content {
         display: flex;
-        flex-direction: column;
-        border: 1px solid #5e1010; 
-        margin-top: 16px; 
-        
-        /* background-color: #b8b8b8; */
-        /* padding: 10px; */
+        flex-direction: column;  
+        /* margin-top: 16px;  */   /* revised */ /* revised */ /* revised */
     }
 
-    /* .section3-content h4 {
-        background-color: #b8b8b8;
-        padding-bottom: 16px;
-        padding-right: 72px;
-        padding-left: 72px;
-    } */
+   
 
     .section3-content div {
         background-color: #b8b8b8;
         padding-bottom: 16px;
-        margin-right: 72px;
-        margin-left: 72px;
-        text-align: center;
+        margin: 16px 0;               /* newly added */ /* newly added */ /* newly added */
+        /* margin-right: 72px; */    /* revised */ /* revised */ /* revised */
+        /* margin-left: 72px; */    /* revised */ /* revised */ /* revised */
+        text-align: center;   
+        width: 100%;               /* revised */ /* revised */ /* revised */
+        justify-content: center;   /* revised */ /* revised */ /* revised */
+        
         /* margin: 0px 72px; */
     } 
 
@@ -351,7 +373,7 @@ footer {
         display: none;
     }
 
-    .section4-content video {
+    .section4-content {         /* revised */ /* revised */ /* revised */
         width: 100%;               
     }
 
